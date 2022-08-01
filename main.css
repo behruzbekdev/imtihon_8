@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nomi:hover{
+    background-color: red!important;
+    color: white;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.kak{
+    list-style-type: none;
+    color: grey;
+}
+.kak_1{
+    display: inline-block;
+    margin-left: 10px
+}
+.kak_1:hover{
+    color: blue;
+    transition: all 1s;
+    cursor: pointer;
+}
+.li_1{
+    margin-left: 20px!important;
+    display: inline-block;
+}
+.ul_1, .ul_2, .ul_3{
+    display: inline-block;
+}
+.li_2{
+    list-style-type: none;
+}
+.button_1{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red!important;
+}
+.button_1:hover{
+    transition: all 1s;
+    color: white!important;
+    background-color: red!important;
+}
+.button_2:hover{
+    transition: all 1s;
+    cursor: pointer;
+    background-color: blue!important;
+    color: white!important;
+}
+@media only screen and (max-width:800px){
+    .flex_1{
+        flex-direction: column;
+    }
+    .res_need{
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-top: 20px!important;
+    }
+    .res_2{
+        margin-left: 0px!important;
+    }
+}
+.ha{
+    background-color: rgb(165, 165, 243);
+    margin-top: 20px;
+    color: blue;
+}
+.ha:hover{
+    background-color: blue!important;
+    color: white!important;
+    transition: all 1s;
+}
+.ul_3{
+    display: inline-block;
+}
+.button_2{
+    background-color: rgb(174, 174, 255);
+    color: blue;
+}
+.li_3{
+    list-style-type: none;
+}
+.flex_1{
+    display: flex;
+}
